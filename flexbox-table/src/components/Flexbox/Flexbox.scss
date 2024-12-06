@@ -1,0 +1,35 @@
+
+body, table, td, th {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.flexbox-table {
+  width: 100%;
+  border-collapse: collapse; /* Optional: cleaner borders */
+  table-layout: fixed;
+  border-spacing: 0;
+}
+
+tr {
+  width: 100%;
+  border: none;
+}
+
+.flexbox-table-debug td {
+  border: 1px solid #ddd; /* Optional: add border for clarity */
+}
+
+.table-justify-content-space-between {
+  td:first-of-type {
+    text-align: left;
+  }
+  td:last-of-type {
+    text-align: right;
+  }
+  td {
+    text-align: center;
+  }
+
+}
