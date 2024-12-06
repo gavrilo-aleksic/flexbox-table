@@ -47,6 +47,15 @@ function App() {
           <div style={{backgroundColor: '#ffa500'}}>Item 2</div>
         </FlexboxItem>
       </Flexbox>
+      <p>Demonstrate gap between cells X</p>
+      <Flexbox gap="20px">
+        <FlexboxItem>
+          <div style={{backgroundColor: 'red'}}>Item 1</div>
+        </FlexboxItem>
+        <FlexboxItem>
+          <div style={{backgroundColor: '#ffa500'}}>Item 2</div>
+        </FlexboxItem>
+      </Flexbox>
     </>
   );
 }
